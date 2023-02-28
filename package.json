@@ -1,6 +1,6 @@
 {
   "name": "ivanco",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI assistant to made commits easier",
   "type": "module",
   "bin": {
