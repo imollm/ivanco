@@ -1,0 +1,24 @@
+{
+  "name": "ivanco",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "extends": {
+    "eslintConfig": "./node_modules/standard/eslintrc.json"
+  },
+  "devDependencies": {
+    "standard": "17.0.0"
+  },
+  "dependencies": {
+    "@bdsqqq/try": "2.3.1",
+    "@clack/prompts": "0.6.1",
+    "picocolors": "1.0.0"
+  }
+}
