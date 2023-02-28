@@ -1,12 +1,13 @@
+This is a CLI assistant to made your life easier making commits.
 
 ```
 ❯ npx ivanco@latest
-┌  Asistente para la creación de commits por @ivandev
+┌  CLI assistant for create commits by @ivandev
 │
-◇  No tienes nada preparado para hacer commit.
+◇  You don't have staged files.
 │  README.md
 │
-◆  Selecciona el tipo de commit
+◆  Choose commit's type:
 │  ● 🆕 feat                 · Add new feature 
 │  ○ 🐛 fix                  · Submit a fix from a bug
 │  ○ ⚡️ perf                 · Improve performance
@@ -17,24 +18,24 @@
 ```
 ```
 ❯ npx ivanco@latest
-┌  Asistente para la creación de commits por @ivandev
+┌  CLI assistant for create commits by @ivandev
 │
-◇  No tienes nada preparado para hacer commit.
+◇  You don't have staged files.
 │  README.md
 │
-◇  Selecciona el tipo de commit
+◇  Choose commit's type:
 │  📖 docs                 · Add or update documentation
 │
-◇  Introduce el mensaje del commit:
+◇  Enter the commit message:
 │  Add README to the project
 │
-◇  ¿Quieres crear el commit con el siguiente mensaje?
+◇  Do you want to create the commit with the following message?
     
         📖 docs: Add README to the project
 
-        ¿Confirmas?
+        Do you confirm?
     
 │  Yes
 │
-└  ✓ Commit creado con éxito!
+└  ✓ Commit created successfully!
 ```
