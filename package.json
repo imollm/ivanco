@@ -1,10 +1,14 @@
 {
   "name": "ivanco",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "CLI assistant to made commits easier",
   "type": "module",
+  "bin": {
+    "ivanco": "./src/bin.js"
+  },
   "main": "index.js",
   "scripts": {
+    "co": "ivanco",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +18,7 @@
     "eslintConfig": "./node_modules/standard/eslintrc.json"
   },
   "devDependencies": {
+    "ivanco": "file://.",
     "standard": "17.0.0"
   },
   "dependencies": {
