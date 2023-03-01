@@ -1,6 +1,6 @@
 {
   "name": "ivanco",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI assistant to made commits easier",
   "type": "module",
   "bin": {
@@ -14,8 +14,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "extends": {
-    "eslintConfig": "./node_modules/standard/eslintrc.json"
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
   },
   "devDependencies": {
     "ivanco": "file://.",
